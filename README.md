@@ -140,11 +140,13 @@ To drive the robot with a controller, press and hold either `L1` or `R1`, and mo
 
 ### Step 3: Creating a Node in Turtlebot 4
 
-Complete the [Create First Node in Python Tutorial](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/first_node_python.html)
+Complete the [Create First Node in Python Tutorial](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/first_node_python.html). Take a video demonstrating the functionality of the lightring that showcases both the lightring on the Turtlebot 4 and also the output produced in the terminal. Upload the video to the [Google Form](https://forms.gle/oxvWEMEW1UFPNpD68)
 
 ### Step 4: Building a Map and Navigation
 
 Once the robot is up and running, you need to have it navigate in the environment. You need to come up with a navigation task and have your robot build a map of a relatively complex environment and have it navigate **autonomously** for a specific purpose or application. You can follow [Generating a map tutorial](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/generate_map.html) to create your map. Then follow [Navigation tutorial](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/navigation.html) or watch [TurtleBot 4 | Mapping & Navigation with ROS 2 Navigation Stack Video](https://www.youtube.com/watch?v=T3if0aPj0Eo) to learn how to have the Turtlebot build a map and navigate in the environment given the map.
+
+#### Map Building
 
 Now that you have your teleop keyboard working, you should be able to run the slam, rviz, and teleop keyboard commands in separate terminals. **SLAM** (Simultaneous localization and mapping) is a method for creating a map of the area around the robot and keeping track of the robot position in that map. The TurtleBot 4 uses `slam_toolbox` by combing the data from Create3 and laser scans from `RPLIDAR`. We use the asynchronous SLAM when generating a map for the robot because it uses less processing power, but the map generated cannot be accurate as the synchronous SLAM method. **Rviz2** is a port of Rviz2 to ROS2. Rviz2 gives us a graphical interface to view the robot, the map and the sensor data while it is running to generate the map.  The needed packages should be installed on the turtlebot laptops. If not,  you can install them from the [turtlebot4 packages](https://turtlebot.github.io/turtlebot4-user-manual/software/turtlebot4_packages.html). You do not need the robot package, however, you do need the Desktop and Simulator packages which will allow you to run the rviz and slam packages.
 
@@ -158,7 +160,11 @@ You should now be able to drive your turtlebot and have it generate a map on you
 
 In order to save the map, run this command: `ros2 service call /slam_toolbox/save_map slam_toolbox/srv/SaveMap "name: data: 'map_name'"`
 
-#### Other Resources:
+#### Navigation
+
+After you have saved the map of your chosen environment, you can complete the selected navigation task for your application/task by completing the [Navigation tutorial](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/navigation.html). Upload the video of your full navigation task to the [Google Form](https://forms.gle/oxvWEMEW1UFPNpD68)
+
+## Other Resources:
 
 - [TurtleBot 4 | Unboxing & Getting Started Video](https://www.youtube.com/watch?v=QN01AXjoLdQ&t=0s).
 - [Driving your Turtlebot 4 Tutorial](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/driving.html).
