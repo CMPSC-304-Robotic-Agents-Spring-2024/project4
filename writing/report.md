@@ -2,7 +2,7 @@
 
 ## Step 1: Getting to know Turtlebot 4
 
-TODO: Provide 3-5 sentence overview of key takeaways from this section. 
+TODO: Provide 3-5 sentence overview of key takeaways from this section.
 
 ## Step 2: `teleop`
 
