@@ -52,13 +52,11 @@ The following steps can be completed somewhat simultaneously. Identify a team le
 
 ### Step 1: Getting to know Turtlebot 4
 
-Read [Turtlebot 4 Software Documentation](https://turtlebot.github.io/turtlebot4-user-manual/software/) and complete or verify the necessary installations.
+Follow [Turtlebot 4 Software Documentation](https://turtlebot.github.io/turtlebot4-user-manual/software/) and complete this part of the report. `turtlebot4` packages should already be installed on the Linux machines.
 
 ### Step 2: Teleop
 
-Get connected and drive the robot using remote control, `teleop`. Please follow the steps below. 
-
-Now, either follow instructions on [Turtlebot Lite Section](#turtlebot-lite) or [Turtlebot Standard Section](#turtlebot-standard), depending on the robot your team has.
+Get connected and drive the robot using remote control, `teleop`. Please either follow instructions on [Turtlebot Lite Section](#turtlebot-lite) or [Turtlebot Standard Section](#turtlebot-standard), depending on the robot your team has.
 
 #### Turtlebot Lite
 

@@ -4,9 +4,13 @@
 
 TODO: Provide 3-5 sentence overview of key takeaways from this section.
 
+TODO: Experiment with the `turtlebot4_node` package, running at least 3 commands. For example, can you get the battery status of the robot? Include screenshots demonstrating your experimentation. 
+
 ## Step 2: `teleop`
 
 TODO: Describe the steps you took to turn on and get your robot set up, and the steps you took to successfully use `teleop` on the robot.
+
+TODO: Publish to `/cmd_vel` and include a screenshot of the terminal with the output.
 
 ## Step 3: Creating a Node in Turtlebot 4
 
