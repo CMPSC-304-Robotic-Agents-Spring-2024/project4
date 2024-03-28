@@ -12,7 +12,7 @@ TODO: Describe the steps you took to turn on and get your robot set up, and the 
 
 TODO: Describe the steps you took to complete this part of the assignment. Upload a video demonstration that showcases both the lightring functionality on the turtlebot and the output in your terminal to the [Google form](https://forms.gle/6F1oG1qaHkW2atGV8). Submit the Python code in the `src` directory.
 
-## Step 4: Implementation Details and Outcomes
+## Step 4: Navigation Details and Outcomes
 
 TODO: Describe the navigation application/task that you decided to pursue. Include **all** steps you took to implement the task, including all non-technical and technical details. Please include references (links are okay) to all resources you have used. Describe your observations of your working robot in a specific application.Demonstrate your completed navigation application/task. You can either demonstrate your navigation task live or upload a video to the [Google form](https://forms.gle/6F1oG1qaHkW2atGV8) and explain it during the lab on April 9th.
 
