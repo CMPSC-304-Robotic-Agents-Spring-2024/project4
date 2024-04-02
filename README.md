@@ -4,9 +4,9 @@
 
 Activity                                                                                               | Deadline
 ------------------------------------------------------------------------------------------------------ | -------------------------------------------
-Complete Steps 1 and 2 part of the report (At least 1 commit):               | by the end of class on November 9th, 2022
-Complete Step 3 part of the report (At least 1 commit):               | by the end of lab on November 9th, 2022
-Final Submission and Live or Video Demonstration:                                                                             | April 9th, 2024 by 2:30pm
+Complete Steps 1 and 2 part of the report (At least 1 commit):               | by the end of lab on April 2nd, 2024
+Complete Step 3 part of the report (At least 1 commit):               | by the end of class on April 4th, 2024
+Final Submission and Live or Video Demonstration:                                                                             | April 11th, 2024 by 9:30am
 
 ## Class Community Guidelines
 
