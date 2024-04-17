@@ -148,9 +148,9 @@ Once the robot is up and running, you need to have it navigate in the environmen
 
 Now that you have your teleop keyboard working, you should be able to run the slam, rviz, and teleop keyboard commands in separate terminals. **SLAM** (Simultaneous localization and mapping) is a method for creating a map of the area around the robot and keeping track of the robot position in that map. The TurtleBot 4 uses `slam_toolbox` by combing the data from Create3 and laser scans from `RPLIDAR`. We use the asynchronous SLAM when generating a map for the robot because it uses less processing power, but the map generated cannot be accurate as the synchronous SLAM method. **Rviz2** is a port of Rviz2 to ROS2. Rviz2 gives us a graphical interface to view the robot, the map and the sensor data while it is running to generate the map.  The needed packages should be installed on the turtlebot laptops. If not,  you can install them from the [turtlebot4 packages](https://turtlebot.github.io/turtlebot4-user-manual/software/turtlebot4_packages.html). You do not need the robot package, however, you do need the Desktop and Simulator packages which will allow you to run the rviz and slam packages.
 
-- To start, run this command in a new terminal: `source /opt/ros/galactic/setup.bash` then run in the same terminal `ros2 launch turtlebot4_navigation slam_sync.launch.py`
+- To start, run this command in a new terminal: `source /opt/ros/humble/setup.bash` then run in the same terminal `ros2 launch turtlebot4_navigation slam_sync.launch.py`
     
-- Next run this command in a NEW TERMINAL: `source /opt/ros/galactic/setup.bash` then run, in the same terminal, this command: `ros2 launch turtlebot4_viz view_robot.launch.py`
+- Next run this command in a NEW TERMINAL: `source /opt/ros/galactic/humble.bash` then run, in the same terminal, this command: `ros2 launch turtlebot4_viz view_robot.launch.py`
     
 - Finally, run a fresh `teleop` keyboard in a NEW TERMINAL. Note: re-run the teleop in a new terminal even if you already have one running, this is because it will sometimes not connect with the new programs you have running if you use something that was already running.
 
